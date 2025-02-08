@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamourgaze - Natural Skincare</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f9fa; margin: 0; }
+        header { background: #ff66b2; padding: 20px; color: white; font-size: 24px; }
+        .product { display: inline-block; margin: 20px; padding: 15px; border: 1px solid #ddd; background: #fff; width: 250px; border-radius: 10px; }
+        .product img { width: 100%; border-radius: 10px; }
+        button { background: #ff66b2; color: white; padding: 10px 15px; border: none; cursor: pointer; border-radius: 5px; }
+        button:hover { background: #e60073; }
+    </style>
+</head>
+<body>
+    <header>Welcome to Glamourgaze 🌸</header>
+    <p>100% Organic & Natural Skincare Products</p>
+
+    <div class="product">
+        <img src="product1.jpg" alt="Face Cream">
+        <p><strong>Herbal Face Cream</strong> - $15</p>
+        <button onclick="orderNow()">Order Now</button>
+    </div>
+
+    <script>
+        function orderNow() {
+            window.location.href = "https://wa.me/your_whatsapp_number";
+        }
+    </script>
+</body>
+</html>
